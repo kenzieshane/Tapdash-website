@@ -1,0 +1,1 @@
+An arcade-style action-puzzle game inspired by Tomb of the Mask, where players navigate maze-like levels filled with traps. This game includes a built-in level editor, deep customization options, and full open-source modding support.
