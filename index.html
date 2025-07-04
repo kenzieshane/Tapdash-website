@@ -1,1 +1,120 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoD / Tap!Dash</title>
+    <link rel="stylesheet" href="tapdash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">LoD/Tap!Dash</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#" class="btn-download">Download</a>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+    
+    <div class="container" id="home">
+        <h1>Welcome to Legend Of Dash / Tap!Dash</h1>
+        <p class="subtitle">An arcade-style action-puzzle game inspired by Tomb of the Mask, where players navigate maze-like levels filled with traps. This game includes a built-in level editor, deep customization options, and full open-source modding support.</p>
+        
+        <!-- Image Carousel -->
+        <div class="carousel-container" id="gallery">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="https://via.placeholder.com/800x450/ff4444/121212?text=Game+Screenshot+1" alt="Game Screenshot 1">
+                    <div class="carousel-caption">Navigate challenging mazes</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://via.placeholder.com/800x450/ff3333/121212?text=Game+Screenshot+2" alt="Game Screenshot 2">
+                    <div class="carousel-caption">Customize your character</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://via.placeholder.com/800x450/ff2222/121212?text=Game+Screenshot+3" alt="Game Screenshot 3">
+                    <div class="carousel-caption">Create your own levels</div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous slide">&#10094;</button>
+            <button class="carousel-btn next" aria-label="Next slide">&#10095;</button>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        
+        <div class="features" id="features">
+            <h2>Game Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-gamepad feature-icon"></i>
+                    <h3>Fast-Paced Gameplay</h3>
+                    <p>Quick reflexes and strategic thinking required to navigate through increasingly difficult levels.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-edit feature-icon"></i>
+                    <h3>Level Editor</h3>
+                    <p>Create and share your own custom levels with the built-in editor.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-astronaut feature-icon"></i>
+                    <h3>Character Customization</h3>
+                    <p>Unlock and customize your character with various skins and abilities.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code-branch feature-icon"></i>
+                    <h3>Modding Support</h3>
+                    <p>Full open-source support for modders to create new content and mechanics.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h2>Ready to Play?</h2>
+            <p>Join thousands of players enjoying Tap!Dash today!</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Download Now</a>
+                <a href="#" class="btn btn-secondary">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="about">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Tap!Dash</h3>
+                <p>An indie game project created by SteveIndoPlayScratch and KenzieShane, inspired by classic arcade maze games, Tomb of the mask and Geometry Dash as a continuation of the original Legend Of Dash game.</p>
+            </div>
+            <div class="footer-section">
+<h3>About Legend Of Dash</h3>
+                <p>The original game project created by SteveIndoPlayScratch that starts it all.</p>
+                </div>
+                <div class="footer-section">
+<h3>About Legend Of Dash Reloaded</h3>
+                <p>The Complete rewrite of the game with much more features.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="https://m.youtube.com/@imaguyyesmale/"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/kenzieshane"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> KenzieShane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="tapdash.js"></script>
+</body>
+</html>
